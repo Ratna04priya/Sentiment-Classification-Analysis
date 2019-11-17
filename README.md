@@ -48,9 +48,29 @@ In the end, extremely positive and extremely negative words will have positive-t
 ### Creating the Input/Output Data
 Created a set named vocab that contains every word in the vocabulary.
 Take a look at the following image. It represents the layers of the neural network you'll be building throughout this notebook. layer_0 is the input layer, layer_1 is a hidden layer, and layer_2 is the output layer.
-![IMG1](https://github.com/Ratna04priya/Sentiment-Classification-Analysis/blob/master/sentiment_network.png)
+
+
+![IMG2](https://github.com/Ratna04priya/Sentiment-Classification-Analysis/blob/master/sentiment_network_2.png)
+
+Now, Created a numpy array called layer_0 and initialize it to all zeros. You will find the zeros function particularly helpful here. Be sure you create layer_0 as a 2-dimensional matrix with 1 row and vocab_size columns.
  
+ layer_0 contains one entry for every word in the vocabulary, as shown in the above image. We need to make sure we know the index of each word, so run the following cell to create a lookup table that stores the index of every word.
  
+ ![IMG2](https://github.com/Ratna04priya/Sentiment-Classification-Analysis/blob/master/sentiment_network.png)
  
+ Now, the implementation of update_input_layer. It should count how many times each word is used in the given review, and then store those counts at the appropriate indices inside layer_0.
+ 
+ ## 4. Building a Network
+ We've included the framework of a class called SentimentNetork. Implement all of the items marked TODO in the code. These include doing the following:
+
+    Create a basic neural network much like the networks you've seen in earlier lessons and in Project 1, with an input layer, a hidden layer, and an output layer.
+    
+    Do not add a non-linearity in the hidden layer. That is, do not use an activation function when calculating the hidden layer outputs.
+    
+    Re-use the code from earlier in this notebook to create the training data (see TODOs in the code)
+    Implement the pre_process_data function to create the vocabulary for our training data generating functions
+    Ensure train trains over the entire corpus
+
+
  
  
