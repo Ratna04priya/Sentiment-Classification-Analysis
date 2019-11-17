@@ -63,14 +63,45 @@ Now, Created a numpy array called layer_0 and initialize it to all zeros. You wi
  ## 4. Building a Network
  We've included the framework of a class called SentimentNetork. Implement all of the items marked TODO in the code. These include doing the following:
 
-    Create a basic neural network much like the networks you've seen in earlier lessons and in Project 1, with an input layer, a hidden layer, and an output layer.
+ 1. Create a basic neural network much like the networks you've seen in earlier lessons and in Project 1, with an input layer, a hidden layer, and an output layer.
     
-    Do not add a non-linearity in the hidden layer. That is, do not use an activation function when calculating the hidden layer outputs.
+2.  Do not add a non-linearity in the hidden layer. That is, do not use an activation function when calculating the hidden layer outputs.
     
-    Re-use the code from earlier in this notebook to create the training data (see TODOs in the code)
+3.  Re-use the code from earlier in this notebook to create the training data (see TODOs in the code)
     Implement the pre_process_data function to create the vocabulary for our training data generating functions
     Ensure train trains over the entire corpus
 
+## 5. Understanding Neural Noise
+We've included it here so you can run the cells along with the video without having to type in everything.
 
- 
+
+## 6. Reducing Noise in Our Input Data
+ Specifically, do the following:
+
+    Copy the SentimentNetwork class you created earlier into the following cell.
+    Modify update_input_layer so it does not count how many times each word is used,
+    but rather just stores whether or not a word was used.
+    
+## 7. Analyzing Inefficiencies in our Network
+
+![IMG3](https://github.com/Ratna04priya/Sentiment-Classification-Analysis/blob/master/sentiment_network_sparse.png)
+
+![IMG4](https://github.com/Ratna04priya/Sentiment-Classification-Analysis/blob/master/sentiment_network_sparse_2.png)
+
+## 8. Making our Network More Efficient
+
+Make the SentimentNetwork class more efficient by eliminating unnecessary multiplications and additions that occur during forward and backward propagation. 
+
+## 9. Reducing Noise by Strategically Reducing the Vocabulary
+
+Improve SentimentNetwork's performance by reducing more noise in the vocabulary. Specifically, do the following:
+
+    Copy the SentimentNetwork class from the previous project into the following cell
+    Modify pre_process_data:
+    
+## 10. Analysis of Data
+
+To see "What's Going on in the Weights?".
+
+
  
