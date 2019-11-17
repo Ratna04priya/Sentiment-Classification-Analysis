@@ -47,6 +47,8 @@ In the end, extremely positive and extremely negative words will have positive-t
 
 ### Creating the Input/Output Data
 Created a set named vocab that contains every word in the vocabulary.
+Take a look at the following image. It represents the layers of the neural network you'll be building throughout this notebook. layer_0 is the input layer, layer_1 is a hidden layer, and layer_2 is the output layer.
+![IMG1](https://github.com/Ratna04priya/Sentiment-Classification-Analysis/blob/master/sentiment_network.png)
  
  
  
