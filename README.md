@@ -11,6 +11,11 @@ In addition, among researchers and stakeholders, you can find either similar or 
 
 The analysis is divided into sub projects -
 
-## 1. Curate a Dataset
+## 1. Perparation of Dataset
+### Curate a Dataset
 
+The data in reviews.txt we're using has already been preprocessed a bit and contains only lower case characters. If we were working from raw data, where we didn't know it was all lower case, we would want to add a step here to convert it. That's so we treat different variations of the same word, like The, the, and THE, all the same way.
 
+### Develop a Predictive Theory
+
+By labelling and assigning the corrosponding reviews with it.
