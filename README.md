@@ -19,3 +19,7 @@ The data in reviews.txt we're using has already been preprocessed a bit and cont
 ### Develop a Predictive Theory
 
 By labelling and assigning the corrosponding reviews with it.
+
+## 2. Quick Theory Validation
+
+We'll create three Counter objects, one for words from postive reviews, one for words from negative reviews, and one for all the words. We'll Examine all the reviews. For each word in a positive review, increase the count for that word in both your positive counter and the total words counter; likewise, for each word in a negative review, increase the count for that word in both your negative counter and the total words counter.
